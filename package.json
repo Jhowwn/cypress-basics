@@ -1,0 +1,17 @@
+{
+  "name": "aquino",
+  "version": "1.0.0",
+  "description": "Create tests for the site mcaquino",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  },
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3"
+  }
+}
