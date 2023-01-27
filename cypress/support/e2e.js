@@ -14,7 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './commands';
 
 require('@cypress/xpath');
 
@@ -22,6 +22,6 @@ require('@cypress/xpath');
 // require('./commands')
 
 Cypress.SelectorPlayground.defaults({
-  selectorPriority: ['data-wc', 'id', 'class', 'attributes', 'data-cy', 'data-test', 
-      'data-testid', 'tag', 'nth-child'],
+  selectorPriority: ['data-wc', 'data-cy', 'data-test',
+    'data-testid', 'id', 'class', 'attributes', 'tag', 'nth-child'],
 })
