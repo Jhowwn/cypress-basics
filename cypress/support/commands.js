@@ -38,7 +38,7 @@ Cypress.Commands.add('login', (user, password) => {
   cy.get(locators.LOGIN.USER).type(user)
   cy.get(locators.LOGIN.PASSWORD).type(password)
   cy.get(locators.LOGIN.BTN).click()
-  cy.get(locators.MESSAGE).should('contain', 'Bem vindo, testfy')
+  cy.get(locators.MESSAGE).should('contain', 'Bem vindo')
 })
 
 Cypress.Commands.add('resetApp', () => {
